@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uma Carta Para Você</title>
+    <link rel="stylesheet" href="/pagina-carta/style.css">
+</head>
+
+<body>
+    <video autoplay muted loop playsinline id="video-fundo">
+        <source src="/assets/watermarked_preview.mp4" type="video/mp4">
+    </video>
+
+    <main>
+        <figure class="carta-container">
+            <img
+                src="/pagina-carta/assets/carta-fechada.png"
+                alt="Carta fechada, arraste para cima para abrir"
+                class="carta"
+                id="carta"
+                draggable="false"
+            >
+            <figcaption class="dica">Arraste para cima ↑</figcaption>
+        </figure>
+    </main>
+
+    <script src="/pagina-carta/script.js"></script>
+</body>
+
+</html>
